@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title"   content="To do list ">
+<head>
+	<title>TODO LIST</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>Todo List</h1>
+		</div>
+		<div id="inputContainer">
+			<input id="taskInput" type="text" placeholder="Add a task" maxlength="50" />
+		</div>
+		<div id="listWrapper">
+			<ul id="taskList">
+			</ul>
+		</div>
+		<div id="deleteBtnWrapper" >
+			<button id="deleteCompletedBtn" onclick="deleted()">Delete</button>
+			<button id="clearTasksBtn" onclick="clearAll()">Clear All</button>
+		
+		
+	</div>
+	
+	
+<script src="js/todo.js"></script>
+</body>
+</html>
